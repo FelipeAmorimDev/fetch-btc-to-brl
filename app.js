@@ -10,6 +10,6 @@ const refreshBtcValue = () => {
 }
  
 refreshBtcValue()
-setInterval(consultBtcValue,30000)
+setInterval(refreshBtcValue,30000)
 
 
